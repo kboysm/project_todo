@@ -1,19 +1,4 @@
 # to-do-list
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 2021 - 01 -05
+figma를 이용한 design , figma-design 폴더 대략적인 design 및 figma 경험
