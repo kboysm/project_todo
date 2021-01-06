@@ -1,4 +1,5 @@
 <template>
+<div class="sideContainer">
     <div class="sideBar">
         <button>
             <img src="../../assets/Icon/face_unlock_24px.svg" alt="user">
@@ -16,6 +17,7 @@
             <img src="../../assets/Icon/logout.svg" alt="user">
         </button>
         
+    </div>
     </div>
 </template>
 
