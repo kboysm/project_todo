@@ -1,13 +1,50 @@
 .situationContainer {
-    display: inline-block;    
-    width:94vw;
-    // height: 30vh;
+    margin-left: 4vw;  
+    float: left; 
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width:95%;
+    height: 30vh;
     text-align: center;
-    border:1px solid black;
 }
 
 .situationBoard {
+    position: absolute;
     width:80vw;
-    // height: 30vh;
-    // border:1px solid black;
+    height: 200px;
+    border-radius: 25px;
+    background-color: $primary-color;
+   
+    .textArea {
+        padding:30px 60px 10px 120px;
+        // position: absolute;
+        float:left;
+        font-size: 50px;
+        font-weight: 600;
+        .myName {
+            color: #FFFFFF;
+        }
+    }
+
+    .imgArea {
+        margin-top: -15px;
+        padding-right: 60px;
+        float:right;
+        // border: 1px solid black;
+        .mainImg {
+            width: 250px;
+            height: 250px;
+        }
+    }
 }
+
+
+// .imgArea {
+//     background-color: black;
+//     display: inline-block;
+//     width: 250px;
+//     height: 250px;
+// }
+
