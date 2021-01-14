@@ -12,7 +12,8 @@
       <div class="ml-10 w-11/12 h-4/6">
         <!-- <login-page></login-page> -->
         <!-- <file-page></file-page> -->
-        <main-page></main-page>
+        <!-- <main-page></main-page> -->
+        <todo-list></todo-list>
       </div>
     </div>
   </div>
@@ -25,10 +26,11 @@
     import  LoginPage  from '@/components/RouteComponent/LoginPage.vue';
     import  FilePage  from '@/components/RouteComponent/FilePage.vue';
     import  MainPage  from '@/components/RouteComponent/MainPage.vue';
+    import  todoList  from '@/components/RouteComponent/todoList.vue';
 
     @Component({
       components: {
-        SideBar, SituationBoard, LoginPage,FilePage,MainPage
+        SideBar, SituationBoard, LoginPage,FilePage,MainPage,todoList
       }
     })
     export default class App extends Vue {
