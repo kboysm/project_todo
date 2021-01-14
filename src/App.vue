@@ -1,8 +1,18 @@
 <template>
-  <div>
+  <div class="flex w-screen h-screen">
     <!-- <router-view/> -->
-    <side-bar />
-  <situation-board />
+    <div class="h-screen border w-20">
+      <side-bar />
+    </div>
+    <div class="">
+      d
+      <!-- <div>
+        <situation-board />  
+      </div> -->
+      <!-- <div class="bg-gray-100">
+        main
+      </div> -->
+    </div>
   </div>
 </template>
 
@@ -24,5 +34,5 @@
 
 <style lang="scss">
 
-@import '@/style/index';
+// @import '@/style/index';
 </style>
