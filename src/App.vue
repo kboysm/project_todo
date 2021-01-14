@@ -4,12 +4,13 @@
     <div class="h-screen border w-20">
       <side-bar />
     </div>
-    <div class="h-screen w-full p-12">
-      <div class="w-4/5 h-96">
+    <div class="h-screen w-full p-5">
+      <div class="ml-10 w-11/12">
         <situation-board />  
       </div>
-      <div class="bg-gray-100">
-        main
+      <br>
+      <div class="ml-10 w-11/12 h-4/6">
+        <login-page></login-page>
       </div>
     </div>
   </div>
@@ -19,10 +20,11 @@
     import { Component, Vue } from 'vue-property-decorator';
     import  SideBar  from '@/components/sideBar/SideBar.vue';
     import  SituationBoard  from '@/components/situationBoard/SituationBoard.vue';
+    import  LoginPage  from '@/components/RouteComponent/LoginPage.vue';
 
     @Component({
       components: {
-        SideBar, SituationBoard
+        SideBar, SituationBoard, LoginPage
       }
     })
     export default class App extends Vue {

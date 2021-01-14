@@ -1,6 +1,6 @@
 <template>
     <div class="flex items-center border bg-blue-400 rounded-2xl">
-        <div class= "flex w-full h-full p-10">
+        <div class= "flex w-full h-full p-5">
             <div class="text-5xl bold w-5/6 " style="line-height:80%">
             <div class="ml-12 mt-5">
                 <span class= "fieldName">field name,</span>
