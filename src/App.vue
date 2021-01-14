@@ -11,7 +11,8 @@
       <br>
       <div class="ml-10 w-11/12 h-4/6">
         <!-- <login-page></login-page> -->
-        <file-page></file-page>
+        <!-- <file-page></file-page> -->
+        <main-page></main-page>
       </div>
     </div>
   </div>
@@ -23,10 +24,11 @@
     import  SituationBoard  from '@/components/situationBoard/SituationBoard.vue';
     import  LoginPage  from '@/components/RouteComponent/LoginPage.vue';
     import  FilePage  from '@/components/RouteComponent/FilePage.vue';
+    import  MainPage  from '@/components/RouteComponent/MainPage.vue';
 
     @Component({
       components: {
-        SideBar, SituationBoard, LoginPage,FilePage
+        SideBar, SituationBoard, LoginPage,FilePage,MainPage
       }
     })
     export default class App extends Vue {
