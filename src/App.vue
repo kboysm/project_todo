@@ -4,14 +4,13 @@
     <div class="h-screen border w-20">
       <side-bar />
     </div>
-    <div class="">
-      d
-      <!-- <div>
+    <div class="h-screen w-full p-12">
+      <div class="w-4/5 h-96">
         <situation-board />  
-      </div> -->
-      <!-- <div class="bg-gray-100">
+      </div>
+      <div class="bg-gray-100">
         main
-      </div> -->
+      </div>
     </div>
   </div>
 </template>
