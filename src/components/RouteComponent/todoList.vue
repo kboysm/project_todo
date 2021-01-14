@@ -1,6 +1,6 @@
 <template>
     <div class="flex h-full">
-        <div class="border w-1/2 flex justify-center items-center">
+        <div class="w-1/2 flex justify-center items-center">
             <div class="bg-gray-300 h-96 w-10/12 rounded-lg">
                 <div class="pl-4 pt-2 h-1/5 text-3xl font-black">
                     complete
@@ -18,7 +18,7 @@
                     </div>
             </div>
         </div>
-        <div class="border w-1/2 flex justify-center items-center">
+        <div class="w-1/2 flex justify-center items-center">
             <div class="bg-gray-300 h-96 w-10/12 rounded-lg">
                 <div class="flex pl-4 pt-2 h-1/8 text-3xl font-black">
                     <div class="flex-none inline-block">

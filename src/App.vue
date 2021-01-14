@@ -11,9 +11,9 @@
       <br>
       <div class="ml-10 w-11/12 h-4/6">
         <!-- <login-page></login-page> -->
-        <!-- <file-page></file-page> -->
+        <file-page></file-page>
         <!-- <main-page></main-page> -->
-        <todo-list></todo-list>
+        <!-- <todo-list></todo-list> -->
       </div>
     </div>
   </div>

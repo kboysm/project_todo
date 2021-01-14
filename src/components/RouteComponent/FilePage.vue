@@ -1,5 +1,5 @@
 <template>
-    <div class="h-full">
+    <div class="static h-full">
         <div class="shadow-md ">
         <img class="inline-block" src="@/assets/Icon/prepend.svg" alt="">
         <input type="text"
